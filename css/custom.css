@@ -1,0 +1,146 @@
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+h1, h2, h3, h4, h5, h6, p, li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*above are global styles*/
+
+body {
+    background: url('../img/background-ball.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header {
+    
+    height: 200px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    
+    padding: 0px 15px;
+    color: black;
+}
+
+main {
+    min-height: 100%;
+}
+
+.left {
+    width: 430px;
+    height: 600px;
+    background-color: black;
+    float: left;
+    background: url('../img/sidebar.png');
+    padding-top: 26px;
+}
+
+.left h2 {
+    color: black;
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 1em;
+}
+
+.left p {
+    margin-top: 0px;
+}
+
+.left img {
+    padding-top: 40px;
+    width: 180px;
+    transform-origin:214px 190px;
+    transform: rotate(20deg);
+}
+
+.left-info {
+    
+    width: 200px;
+    float: left;
+    
+}
+
+.left-img {
+    
+    width: 200px;
+    float: left;
+}
+
+.right {
+    width: 430px;
+    height: 600px;
+    text-align: center;
+    float: right;
+    
+}
+
+.right h2 {
+    font-size: 2.6em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+/*h2 {
+    color: #5da0a2;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}*/
+
+input[type=text] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.form-date {
+    width: 120px !important;
+    
+}
+
+.form-cvv {
+    width: 120px !important;
+}
+
+input[type=submit] {
+    background-color: #1be600;
+    
+    padding: 12px 20px;
+    margin: 8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 200px;
+    cursor: pointer;
+    
+    
+}
+
+
+
+
+  
